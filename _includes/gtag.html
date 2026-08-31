@@ -1,8 +1,8 @@
 {% if site.gtag %}
 {% if jekyll.environment == 'production' %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async data-cookiecategory="analytics" src="https://www.googletagmanager.com/gtag/js?id={{ site.gtag }}"></script>
-<script data-cookiecategory="analytics">
+<script async type="text/plain" data-category="analytics" src="https://www.googletagmanager.com/gtag/js?id={{ site.gtag }}"></script>
+<script type="text/plain" data-category="analytics">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
